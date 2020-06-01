@@ -7,7 +7,7 @@
     <title>ONA 2020</title>
     <!-- CSS -->
     <link rel="stylesheet" href="cs/bootstrap.min.css">
-    <link rel="stylesheet" href="cs/style2.css">
+    <link rel="stylesheet" href="cs/home+about.css">
     <!-- JAVA -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -29,66 +29,61 @@
 
 <body>
     <!-- header Section Begin -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="logo" href="#">
-            <img src="https://ona.niptict.edu.kh/img/ONA.png" width="220" height="auto" alt="" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Program
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Venue</a>
-                        <a class="dropdown-item" href="#">Process</a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- header End Section -->
+    <header id="header" onmouseover="TouchStyle()" onmouseout="DeleteTouchStyle()">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="logo" href="#">
+                <img src="https://ona.niptict.edu.kh/img/ONA.png" width="220" height="auto" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
     
-    <!-- sponsors second Section Begin -->
-    <section class="sponsors">
-        <div class="sponsors">
-            <h1>SUPPORTED BY</h1>
-            <hr>
-            <div class="cotainer">
-                <div class="row">
-                    <div class="col-sm-5">
-                        <a href=""><img src="https://ona.niptict.edu.kh/img/supporters/MPTC.png" class="one" alt=""></a>
-                    </div>
-                    <div class="col-sm-2">
-
-                    </div>
-                    <div class="col-sm-5">
-                        <a href=""><img src="https://ona.niptict.edu.kh/img/supporters/CBRD.png" class="second"
-                                alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Program
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Program.html">Venue</a>
+                            <a class="dropdown-item" href="Program.html">Process</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- header End Section -->
+    !-- Home to about Section Begin -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>About Us</h2>
+                        <div class="bt-option">
+                            <a href="home.html">Home</a>
+                            <span>About</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- sponsors second Section end-->
+    <!-- Home to about Section End -->
     <!-- Location second Section Begin -->
     <section class="Location-section spad">
         <div class="container">
